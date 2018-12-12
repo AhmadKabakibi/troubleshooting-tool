@@ -1,0 +1,10 @@
+{
+  "coverageThreshold": {
+    "global": {}
+  },
+  "collectCoverageFrom": [
+    "src/**/*.{js,jsx,mjs}",
+    "!src/index.js",
+    "!src/serviceWorker.js"
+  ]
+}
