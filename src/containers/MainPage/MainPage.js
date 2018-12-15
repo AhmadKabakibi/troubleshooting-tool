@@ -35,9 +35,7 @@ class MainPage extends Component {
   }
 
   handleNext = answer => {
-    console.log(this.state.questionIndex)
     if (this.state.questionIndex < this.state.questionsList.length - 1) {
-      console.log(this.state.answers)
       this.answerQuestion(
         this.state.questionIndex,
         this.state.selectedAnswer.answer
