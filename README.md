@@ -12,6 +12,9 @@ and root causes that are not likely at all for the service disruption.
 
 Troubleshooting Tool [demo](https://ahmadkabakibi.github.io/troubleshooting-tool)
 
+![alt text](
+https://docs.google.com/drawings/d/e/2PACX-1vT1bxXPmuxcWvOxe1d5mTRpFOkEBepdk8f0NGm6cKgcEtb5bry4-jGtCxC0djMzQoqkXtInge1OU2Kz/pub?w=960&h=720)
+
 ### Getting Started
 
 `npm run start` Runs the app in the development mode.<br>
