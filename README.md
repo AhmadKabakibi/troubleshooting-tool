@@ -1,7 +1,8 @@
 ## :feet: :question: :squirrel:
-## Troubleshooting Tool
-[![Build Status](https://travis-ci.org/AhmadKabakibi/troubleshooting-tool.svg?branch=master)](https://travis-ci.org/AhmadKabakibi/troubleshooting-tool)
 
+## Troubleshooting Tool
+
+[![Build Status](https://travis-ci.org/AhmadKabakibi/troubleshooting-tool.svg?branch=master)](https://travis-ci.org/AhmadKabakibi/troubleshooting-tool)
 
 Troubleshooting Tool for product generates an alert whenever there is a service disruption.<br>
 This tool is questionnaire and gives the most likely root cause, possible root causes,
