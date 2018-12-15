@@ -1,0 +1,7 @@
+.result {
+  margin: 2em;
+  font-weight: 600;
+  line-height: 1.5;
+  -webkit-transition: opacity 0.5s ease-in-out 0.3s;
+  transition: opacity 0.5s ease-in-out 0.3s;
+}
