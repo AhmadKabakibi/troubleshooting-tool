@@ -1,0 +1,62 @@
+.question {
+  margin: 0.2em;
+}
+
+.answerOptions {
+  margin: 24px;
+  list-style: none;
+}
+
+.answerOption {
+  border-top: 1px solid #eee;
+}
+
+.answerOption:hover {
+  background-color: #eefbfe;
+}
+
+.radioButton {
+  position: absolute;
+  width: auto;
+  opacity: 0;
+}
+
+.radioButton,
+.radioLabel {
+  display: inline-block;
+  vertical-align: left;
+  cursor: pointer;
+}
+
+.radioLabel {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 1.5rem 2.5rem 1.5rem 1em;
+  max-width: 350px;
+  font-size: 1.2em;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.radioButton ~ .radioLabel:before {
+  position: absolute;
+  top: 20px;
+  left: 38px;
+  width: 28px;
+  height: 28px;
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  background: #fff;
+  border: 1px solid #bbb;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+
+.radioButton:checked ~ .radioLabel:before {
+  content: '';
+  background: #8bc53f url(./icon-check.svg) no-repeat;
+  background-size: 27px;
+  border-color: #8bc53f;
+}
