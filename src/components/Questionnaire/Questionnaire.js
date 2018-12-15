@@ -2,8 +2,8 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import Question from '../Question'
 import QuestionCount from '../../components/QuestionCount'
-
-// import { connect } from 'react-redux'
+import { Button } from 'reactstrap'
+import './Questionnaire.css'
 
 class Questionnaire extends Component {
   componentDidMount() {}
@@ -38,9 +38,23 @@ class Questionnaire extends Component {
           currentState={data.answers.find(x => x.index === data.questionIndex)}
           onAnswerSelected={this.handleAnswerSelected}
         />
-        <div>
-          <button onClick={this.handlePrev}>Previous</button>
-          <button onClick={this.handleNext}>Next</button>
+        <div className="buttonsGroup">
+          <Button
+            className="button"
+            outline
+            color="secondary"
+            onClick={this.handlePrev}
+          >
+            Previous
+          </Button>
+          <Button
+            className="button"
+            outline
+            color="secondary"
+            onClick={this.handleNext}
+          >
+            Next
+          </Button>
         </div>
       </div>
     )

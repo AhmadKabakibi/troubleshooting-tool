@@ -2,3 +2,7 @@
   -webkit-transition: opacity 0.5s ease-in-out 0.3s;
   transition: opacity 0.5s ease-in-out 0.3s;
 }
+
+.buttonsGroup .button {
+  margin: 1em;
+}
