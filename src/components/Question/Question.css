@@ -3,12 +3,14 @@
 }
 
 .answerOptions {
-  margin: 24px;
+  width: 70%;
+  margin: 0 auto;
   list-style: none;
 }
 
 .answerOption {
   border-top: 1px solid #eee;
+  text-align: center;
 }
 
 .answerOption:hover {
